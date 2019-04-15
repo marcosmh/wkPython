@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<h1>HOLA MUNDO</h1>
+<!--h1>HOLA MUNDO</h1-->
+{{titulo}}<br/>
+{{request.user}}<br/>
+variable = {{abc}}
+
 <form method="POST" action="">{% csrf_token %}
 {{ el_form.as_p }}
 <input type="submit" value="Registrame">
